@@ -10,7 +10,7 @@
 }
 
 /* Nav Links */
-nav {
+.home-nav {
   position: relative;
   /* position: fixed; */
 }
@@ -162,6 +162,44 @@ nav a:hover{
   text-align:center;
 }
 
+.arrow-to-skills{
+  text-align:center;
+}
+  
+.skills-arrow{
+  color:black;
+  font-size:3em;
+}
+
+/* ------------------------------------------------------------------ */
+              /* Skills */
+/* ------------------------------------------------------------------ */
+.skills {
+  background: lightsalmon;
+  min-height: 100vh;
+}
+
+.skills-h1{
+  text-align: center;
+  font-size: 2em;
+}
+
+.skills-section{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 15em;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.5em;
+  text-align: left;
+}
 .arrow-to-contact{
   text-align:center;
 }
@@ -173,9 +211,23 @@ nav a:hover{
 
 
 
+
+
+
+
+
+
+
+
 /* ------------------------------------------------------------------ */
               /* Contact */
 /* ------------------------------------------------------------------ */
+
+.contact-nav a {
+ color:black;
+}
+
+
 .contact-section {
   background:palevioletred;
   min-height:100vh;
@@ -227,7 +279,6 @@ label {
   font-weight: bold;
 }
 
-
 button {
   color:white;
   background-color: black;
@@ -243,6 +294,19 @@ button {
   color:black;
   padding: .25em;
 }
+
+.arrow-to-home{
+  text-align:center;
+  margin-top: 10em;
+}
+  
+.home-arrow{
+  color:black;
+  font-size:3em;
+}
+
+
+
 
 footer {
   text-align: center;
