@@ -14,8 +14,12 @@
 </body>
 <!-- google fonts -->
 <style>
- @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');;
-  </style>
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+</style>
 
 </html>
 
@@ -26,19 +30,21 @@
 
   <!-- HOME SECTION + NAV -->
   <header class='header-content' id='home'>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <!-- <i class="fas fa-envelope"></i> -->
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-      <!-- <i class="fas fa-home"></i> -->
-    </nav>
-
+    <section class='nav+name'>
+      <nav>
+        <!-- Courtney Carson -->
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <!-- <i class="fas fa-envelope"></i> -->
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <!-- <i class="fas fa-home"></i> -->
+      </nav>
+    </section>
     <!-- <h1 class='name-or-slogan'>Courtney Carson</h1> -->
     <!-- <div class='slogan'> -->
-      <!-- <p>Dream<br>Plan<br>Do</p> -->
+    <!-- <p>Dream<br>Plan<br>Do</p> -->
     <!-- </div> -->
     <div class='down-button'>
       <a href='#about' class='down-btn-color'><i class="fas fa-angle-double-down"></i></a>
@@ -50,22 +56,27 @@
   <section id='about'>
     <div class='about-section'>
 
-      <h1 class='about-h1'>ABOUT ME</h1>
+      <header>
+      <!-- <h1 class='about-h1'>About</h1> -->
+            <img src='images/about-banner.png' class='abt-banner'>
+      </header>
 
       <section class='parent-to-blurbs'>
         <div class='left-blurb'>
-          <p>I’m Courtney, a Full Stack Software Engineer! </p>
-          <p>It’s exciting to say out loud because I recently completed
-            a certificate program for just that, at Thinkful. I learned how to be a good Developer with a love/hate
-            appreciation for code - I think that is required.
-          <p>I fell in love with the consistent learning, then out
-            of love with the bugs that made me want to pull my hair out, then back in love when I found the bug,
-            and rinse.repeat. It’s the most frustrating, satisfying, creative skill I’ve ever possessed, and that
-            is what makes it so interesting.
-          </p>
+          <h4>I’m Courtney, a Full Stack Software Engineer! </h5>
+            <p>It’s exciting to say out loud because I recently completed
+              a certificate program for just that, at Thinkful. I learned how to be a good Developer with a love/hate
+              appreciation for code - I think that is required.
+            <p>I fell in love with the consistent learning, then out
+              of love with the bugs that made me want to pull my hair out, then back in love when I found the bug,
+              and rinse.repeat. It’s the most frustrating, satisfying, creative skill I’ve ever possessed, and that
+              is what makes it so interesting.
+            </p>
         </div>
 
+
         <img src='images/face.png' class='profile-pic' alt='profile-pic'>
+
 
         <div class='right-blurb'>
           <p> Fun Facts </p>
@@ -93,11 +104,14 @@
   <!-- PORTFOLIO SECTION -->
   <section id='portfolio'>
     <div class='portfolio-section'>
-      <h1 class='port-h1'>PORTFOLIO</h1>
+
+      <header>
+              <img src='images/portfolio-banner.png' class='port-banner'>
+        </header>
 
       <section class='projects-div'>
         <!-- Project 1 -->
-        <div class ='project'>
+        <div class='project'>
           <img src='/images/secret.png' class='portfolio-img'>
           <p class='link-box'>
             <a href='https://github.com/CourtneyCarson/secret-camping-sites-client' class='demo-links'>GitHub</a>
@@ -109,7 +123,7 @@
           </p>
         </div>
         <!-- Project 2 -->
-        <div class ='project'>
+        <div class='project'>
           <img src='images/trigger-point.png' class='portfolio-img'>
           <p class='link-box'>
             <a href='https://github.com/CourtneyCarson/pain-management-capstone-client' class='demo-links'>GitHub</a>
@@ -118,10 +132,10 @@
           <p>Trigger Point Troubleshooter</p>
           <p class='description'> A site to learn about and treat pain caused by trigger points.</p>
           <p>Node React Javascript HTML CSS </p>
-        </p>
+          </p>
         </div>
         <!-- Project 3 -->
-        <div class ='project'>
+        <div class='project'>
           <img src='images/spaced-rep.png' class='portfolio-img'>
           <p class='link-box'>
             <a href='https://github.com/CourtneyCarson/spaced-repetition' class='demo-links'>GitHub</a>
@@ -129,7 +143,8 @@
           </p>
           <p>Spaced Repetition</p>
           <p class='description'> A language learing application utilizing a spaced repetition algorithm. </p>
-          <p>Node React Javascript HTML CSS </p></p>
+          <p>Node React Javascript HTML CSS </p>
+          </p>
         </div>
       </section>
 
@@ -144,7 +159,9 @@
   <!-- Skills Section -->
   <section id='skills' class='skills'>
 
-    <h1 class='skills-h1'>SKILLS</h1>
+    <header>
+      <img src='images/skills-banner.png' class='port-banner'>
+</header>
 
     <div class='skills-section'>
       <div>
@@ -192,7 +209,9 @@
   <section id='contact'>
     <div class='contact-section'>
 
-      <h1 class='contact-h1'>CONTACT</h1>
+      <header>
+        <img src='images/contact-banner.png' class='contact-banner'>
+  </header>
 
       <section class='contact-div'>
         <div class='right-contact'>
