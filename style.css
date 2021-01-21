@@ -1,12 +1,17 @@
+body{
+background: #f3e9ed;
+}
+
 /* ------------------------------------------------------------------ */
               /* Home */
 /* ------------------------------------------------------------------ */
 /* Header Background Image */
 .header-content {
-  background: url(/image.png);
-  background-size: cover;
-  min-height: 60em;
+  background: url(/images/Dream.\ Plan.\ Do.\ \(1\).png);
+  background-size: 100%;
+  /* min-height: 60em; */
   /* margin-bottom: 5em; */
+  min-height: 100vh;
 }
 
 /* Nav Links */
@@ -16,7 +21,7 @@
 }
 
 nav a {
-  color:white;
+  color:black;
   font-size: 1.5em;
   padding:.5em;
   text-decoration:none;
@@ -28,26 +33,29 @@ nav a:hover{
 }
 
 /* Big Name */
-.name-or-slogan {
+/* .name-or-slogan {
   margin-top: 4em;
   color:white;
   font-size: 5em;
   text-align:center;
-}
+  font-family: 'Abril Fatface', cursive;
+} */
 /* Slogan */
-.slogan {
+/* .slogan {
   color:white;
   text-align:center;
   font-size: 2em;
-}
+} */
 
 /* Arrows  */
 .down-button {
   text-align:center;
+  margin-top: 50em;
 }
 
 .down-btn-color {
-  color:white;
+  /* color:white; */
+  color: black;
   font-size: 3em;
 }
 
@@ -58,7 +66,7 @@ nav a:hover{
 .about-section {
   /* margin-top: 10em; */
   /* margin-bottom:5em; */
-  background:palegoldenrod;
+  /* background: oldlace; */
   min-height: 100vh;
   display:flex;
   flex-direction: column;
@@ -107,7 +115,7 @@ nav a:hover{
               /* Portfolio */
 /* ------------------------------------------------------------------ */
 .portfolio-section {
-  background:paleturquoise;
+  /* background:paleturquoise; */
   min-height:100vh;
 }
 
@@ -123,33 +131,36 @@ nav a:hover{
   display:flex;
   margin-bottom:10em;
   margin-left:5em;
-  /* justify-content: space-evenly; */
-  /* align-items: center; */
+  justify-content: space-around;
+}
+
+/* Individual projects */
+.project {
+flex: 1;
 }
 
 /* Images */
 .portfolio-img {
-  width: 20em;
-  height:20em;
+  width: 25em;
+  height:18em;
   border-radius: .65em;
-  /* flex:1; */
-  /* align-items: center; */
 }
 
 /* Description Paragraph */
 .description {
-  max-width: 80%;
-  /* text-align: center; */
+  max-width: 90%;
+  text-align: left;
 }
 
 /* demo + github links */
 .demo-links {
   color:black;
   padding:1em;
-  background:pink;
+  /* background:pink; */
   border-radius: .5em;
   /* text-align:left; */
   text-decoration:none;
+  background: rgba(255,182,193, .4 );
 }
 
 .demo-links:hover {
@@ -175,7 +186,7 @@ nav a:hover{
               /* Skills */
 /* ------------------------------------------------------------------ */
 .skills {
-  background: lightsalmon;
+  /* background: lightsalmon; */
   min-height: 100vh;
 }
 
@@ -229,7 +240,7 @@ ul {
 
 
 .contact-section {
-  background:palevioletred;
+  /* background:palevioletred; */
   min-height:100vh;
 }
 
@@ -242,20 +253,31 @@ ul {
 }
 /* contact div container */
 .contact-div {
-  /* display: flex; */
+  display: flex;
   justify-content: space-evenly;
 }
-/* Left side */
+/* Contact Form */
 .left-contact {
-  /* flex: 2; */
-  /* background: white; */
+  /* border: solid; */
+  padding: 4em;
+  /* flex: .5; */
+  background: rgba(255,182,193, .15 );
+  border-radius: .5em;
 }
-/* Right side */
+/* Contact Icons */
 .right-contact{
-  /* flex:1; */
+  /* border: solid; */
+  /* padding: 0em 4em 0em 4em; */
+  /* flex:.5; */
   /* background: yellow; */
   text-align:center;
-  margin-bottom: 3em;
+  /* margin-bottom: 3em; */
+  display: flex;
+  flex-direction: column;
+  padding: 8em;
+  background: rgba(255,182,193, .15 );
+  border-radius: .5em;
+
 }
 
 /* Form */
@@ -270,7 +292,8 @@ ul {
 input, textarea {
   border: none;
   border-radius: .25em;
-  background:pink;
+  /* background:pink; */
+  background: #f3e9ed;
   padding: .5em;
   margin: .5em;
 }
@@ -292,7 +315,7 @@ button {
 .contact-icon {
   font-size: 3em;
   color:black;
-  padding: .25em;
+  padding: .5em;
 }
 
 .arrow-to-home{
@@ -311,3 +334,4 @@ button {
 footer {
   text-align: center;
 }
+
