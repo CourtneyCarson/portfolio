@@ -15,22 +15,7 @@ background: #f3e9ed;
   min-height: 100vh;
 }
 
-/* Nav Links */
-.home-nav {
-  /* position: relative; */
-  /* position: fixed; */
-  /* flex:4; */
-  /* min-height: 100vh; */
-/* display: flex;
-justify-content: space-around; */
-}
 
-/* .nav-name{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-} */
 
 
 nav a {
@@ -205,6 +190,11 @@ flex: 1;
 /* ------------------------------------------------------------------ */
               /* Skills */
 /* ------------------------------------------------------------------ */
+
+.skills-icons {
+  width: 20em;
+}
+
 /* Entire Page View */
 .skills {
   min-height: 100vh;
@@ -242,11 +232,6 @@ ul {
 /* ------------------------------------------------------------------ */
               /* Contact */
 /* ------------------------------------------------------------------ */
-
-/* .contact-nav a {
- color:black;
-} */
-
 /* Entire Page View */
 .contact-section {
   /* background:palevioletred; */
