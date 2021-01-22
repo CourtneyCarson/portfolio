@@ -15,19 +15,35 @@ background: #f3e9ed;
   min-height: 100vh;
 }
 
+.name {
+  font-size: 2em;
+  /* margin-top: .5em; */
+  /* margin-left:1em; */
+  font-family: 'Great Vibes';
+  font-weight:bold;
+  font-size: 3em;
+}
 
-
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: .5em;
+  /* background: white; */
+}
 
 nav a {
   color:black;
-  font-size: 1.5em;
-  padding:.5em;
+  font-size: 1.2em;
+  padding: .5em ;
   text-decoration:none;
+  font-family: 'Spartan';
 }
 
 nav a:hover{
-  background:white;
-  color:black;
+  background:black;
+  color:white;
+  border-radius: .5em;
+  box-shadow: violet;
 }
 
 /* Big Name */
@@ -61,22 +77,27 @@ nav a:hover{
 /* ------------------------------------------------------------------ */
               /* About Me */
 /* ------------------------------------------------------------------ */
+/* Entire Page View */
+.about-section {
+  min-height: 100vh;
+}
+
 /* Banner Image */
 .abt-banner{
   width:100vw;
   margin-bottom: 10em;
 }
 
-/* Entire Page View */
-.about-section {
-  min-height: 100vh;
+.about-name {
+  text-align:center;
+  font-size:2em;
+  font-family:  'Spartan', sans-serif;
 }
 
 /* Flex For <p> & <img> */
 .parent-to-blurbs {
   margin: 0em 5em 1em 5em;
   display: flex;
-  font-family: 'Lato', sans-serif;
 }
 
 /* Left Paragraph */
@@ -87,6 +108,7 @@ nav a:hover{
   background: rgba(255,182,193, .15 );
   border-radius: .5em;
   padding: 0em 1em 0em 1em;
+  font-family: 'Lato';
 }
 
 .profile-pic {
@@ -104,12 +126,13 @@ nav a:hover{
   background: rgba(255,182,193, .15 );
   border-radius: .5em;
   padding: 0em 1em 0em 1em;
+  font-family:'Lato';
 }
 
 /* arrow down to portfolio section */
 .arrow-to-portfolio{
   text-align:center;
-  margin-top:12em;
+  margin-top: 8em;
 }
 
 .port-arrow{
@@ -135,7 +158,7 @@ nav a:hover{
 /* Projects Flex Container */
 .projects-div {
   display:flex;
-  margin-bottom:8em;
+  margin-bottom:5em;
   margin-left:5em;
   justify-content: space-around;
 }
@@ -143,6 +166,15 @@ nav a:hover{
 /* Individual projects */
 .project {
 flex: 1;
+background: #f3e9ed;
+padding: 1em;
+margin:1em;
+font-family: 'Lato'
+}
+
+/* Project Title */ 
+.port-h2 {
+text-align:center;
 }
 
 /* Images */
@@ -152,31 +184,38 @@ flex: 1;
   border-radius: .65em;
 }
 
-/* Description Paragraph */
-.description {
-  max-width: 90%;
-  text-align: left;
-}
-
-/* demo + github links */
+/* Links GitHub + Demo */
 .demo-links {
-  color:black;
+  color:white;
   padding:1em;
-  /* background:pink; */
+  background:black;
   border-radius: .5em;
   /* text-align:left; */
   text-decoration:none;
-  background: rgba(255,182,193, .4 );
+  /* background: rgba(255,182,193, .4 ); */
 }
 
 .demo-links:hover {
-  color:white;
-  background:black;
+  color:black;
+  background:white;
   padding:1em;
 }
 
 .link-box {
   text-align:center;
+}
+
+/* Description Paragraph */
+.description {
+  padding-top:1em;
+  text-align:center;
+}
+
+/* Skills Used */
+.port-skills {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .arrow-to-skills{
@@ -258,6 +297,10 @@ ul {
   padding: 4em;
   background: rgba(255,182,193, .15 );
   border-radius: .5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align:center;
 }
 /* Contact Icons */
 .right-contact{

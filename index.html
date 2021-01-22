@@ -19,6 +19,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 </style>
 
 </html>
@@ -31,16 +33,18 @@
   <!-- HOME SECTION + NAV -->
   <header class='header-content' id='home'>
     <section class='nav+name'>
-      <nav>
-        <!-- Courtney Carson -->
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <!-- <i class="fas fa-envelope"></i> -->
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-        <!-- <i class="fas fa-home"></i> -->
+      <nav class='nav'>
+        <div class='name'>Courtney Carson</div>
+        <div>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <!-- <i class="fas fa-envelope"></i> -->
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+          <!-- <i class="fas fa-home"></i> -->
       </nav>
+      </div>
     </section>
     <!-- <h1 class='name-or-slogan'>Courtney Carson</h1> -->
     <!-- <div class='slogan'> -->
@@ -49,29 +53,29 @@
     <div class='down-button'>
       <a href='#about' class='down-btn-color'><i class="fas fa-angle-double-down"></i></a>
     </div>
-  </header>
+    <!-- <div class='name'>Courtney Carson</div> -->
 
+  </header>
 
   <!-- ABOUT SECTION -->
   <section id='about'>
     <div class='about-section'>
 
       <header>
-      <!-- <h1 class='about-h1'>About</h1> -->
-            <img src='images/about-banner.png' class='abt-banner'>
+        <!-- <h1 class='about-h1'>About</h1> -->
+        <img src='images/about-banner.png' class='abt-banner'>
       </header>
-
+      <h4 class='about-name'>Full Stack Software Engineer </h4>
       <section class='parent-to-blurbs'>
         <div class='left-blurb'>
-          <h4>I’m Courtney, a Full Stack Software Engineer! </h5>
-            <p>It’s exciting to say out loud because I recently completed
-              a certificate program for just that, at Thinkful. I learned how to be a good Developer with a love/hate
-              appreciation for code - I think that is required.
-            <p>I fell in love with the consistent learning, then out
-              of love with the bugs that made me want to pull my hair out, then back in love when I found the bug,
-              and rinse.repeat. It’s the most frustrating, satisfying, creative skill I’ve ever possessed, and that
-              is what makes it so interesting.
-            </p>
+          <p>Having a background in Kinesiology and Management, I know that I love a challenge.
+            <br>That is precisely what I love about being a Developer,
+            I can<br> count on being challenged on a daily basis to expand my skills and knowledge.
+          <p>The best part of being a Full Stack Developer is that I can be both creative and analytical, creating
+            beautiful design, and crisp code.
+          </p>
+          <p> Let's collaborate and create! </p>
+
         </div>
 
 
@@ -106,46 +110,63 @@
     <div class='portfolio-section'>
 
       <header>
-              <img src='images/portfolio-banner.png' class='port-banner'>
-        </header>
+        <img src='images/portfolio-banner.png' class='port-banner'>
+      </header>
 
       <section class='projects-div'>
         <!-- Project 1 -->
         <div class='project'>
+          <h2 class='port-h2'>Secret Camping</h2>
           <img src='/images/secret.png' class='portfolio-img'>
           <p class='link-box'>
             <a href='https://github.com/CourtneyCarson/secret-camping-sites-client' class='demo-links'>GitHub</a>
             <a href='https://secret-camping.vercel.app' class='demo-links'>Live Demo</a></p>
           </p>
-          <p>Secret Camping</p>
           <p class='description'> A members only site to share your favorite secluded camping places.</p>
-          <p>Node React Javascript HTML CSS</p>
-          </p>
+          <div class='port-skills'>
+            <p>Node</p>
+            <p>React</p>
+            <p>Javascript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+          </div>
+          
         </div>
         <!-- Project 2 -->
         <div class='project'>
+          <h2 class='port-h2'>Trigger Point Troubleshooter</h2>
+
           <img src='images/trigger-point.png' class='portfolio-img'>
           <p class='link-box'>
             <a href='https://github.com/CourtneyCarson/pain-management-capstone-client' class='demo-links'>GitHub</a>
             <a href='https://pain-management-capstone-client-m2qof8xrr.vercel.app/' class='demo-links'>Live Demo</a>
           </p>
-          <p>Trigger Point Troubleshooter</p>
           <p class='description'> A site to learn about and treat pain caused by trigger points.</p>
-          <p>Node React Javascript HTML CSS </p>
-          </p>
+          <div class='port-skills'>
+            <p>Node</p>
+            <p>React</p>
+            <p>Javascript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+          </div>         
         </div>
         <!-- Project 3 -->
         <div class='project'>
+          <h2 class='port-h2'>Spaced Repetition</h2>
+
           <img src='images/spaced-rep.png' class='portfolio-img'>
           <p class='link-box'>
             <a href='https://github.com/CourtneyCarson/spaced-repetition' class='demo-links'>GitHub</a>
             <a href='spaced-repetition.courtneycarson.vercel.app' class='demo-links'>Live Demo</a>
           </p>
-          <p>Spaced Repetition</p>
           <p class='description'> A language learing application utilizing a spaced repetition algorithm. </p>
-          <p>Node React Javascript HTML CSS </p>
-          </p>
-        </div>
+          <div class='port-skills'>
+            <p>Node</p>
+            <p>React</p>
+            <p>Javascript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+          </div>         
       </section>
 
       <div class='arrow-to-contact'>
@@ -161,7 +182,7 @@
 
     <header>
       <img src='images/skills-banner.png' class='port-banner'>
-</header>
+    </header>
 
     <div class='skills-section'>
       <div>
@@ -216,7 +237,7 @@
 
       <header>
         <img src='images/contact-banner.png' class='contact-banner'>
-  </header>
+      </header>
 
       <section class='contact-div'>
         <div class='right-contact'>
@@ -239,7 +260,9 @@
             <textarea id="user-message" name="message"></textarea>
             <button type="submit">Submit</button>
           </form>
-
+          <div>
+            <p>Send Me A Message</p>
+          </div>
         </div>
       </section>
       <div class='arrow-to-home'>
