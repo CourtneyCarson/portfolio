@@ -109,6 +109,7 @@ nav a:hover{
 /* arrow down to portfolio section */
 .arrow-to-portfolio{
   text-align:center;
+  margin-top:12em;
 }
 
 .port-arrow{
@@ -134,7 +135,7 @@ nav a:hover{
 /* Projects Flex Container */
 .projects-div {
   display:flex;
-  margin-bottom:10em;
+  margin-bottom:8em;
   margin-left:5em;
   justify-content: space-around;
 }
@@ -192,7 +193,7 @@ flex: 1;
 /* ------------------------------------------------------------------ */
 
 .skills-icons {
-  width: 20em;
+  width: 25em;
 }
 
 /* Entire Page View */
@@ -207,6 +208,7 @@ flex: 1;
 .skills-section{
   display:flex;
   justify-content: space-evenly;
+  margin-bottom: 8em;
 }
 
 h3 {
@@ -221,12 +223,15 @@ ul {
 }
 .arrow-to-contact{
   text-align:center;
+
 }
   
 .contact-arrow{
   color:black;
   font-size:3em;
+
 }
+
 
 
 /* ------------------------------------------------------------------ */
