@@ -252,33 +252,10 @@ text-align:center;
 /* ------------------------------------------------------------------ */
 /* Entire Page View */
 .contact-section {
-  /* background:palevioletred; */
   /* min-height:100vh; */
 }
-
-/* Header Img */
-/* .contact-banner {
-  margin-bottom: 5em;
-  width: 100vw;
-} */
-/* contact div container */
-.contact-div {
-  /* display: flex;
-  justify-content: space-evenly; */
-}
-/* Contact Form */
-/* .left-contact {
-  padding: 4em;
-  background: rgba(255,182,193, .15 );
-  border-radius: .5em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  text-align:center;
-} */
 /* Contact Icons */
-.right-contact{
-  /* border: solid; */
+.contact-div{
   text-align:center;
   /* display: flex;
   flex-direction: column; */
@@ -294,29 +271,6 @@ text-align:center;
   align-items: center;
 }
 
-/* Form Input & Label */
-input, textarea {
-  border: none;
-  border-radius: .25em;
-  /* background:pink; */
-  background: #f3e9ed;
-  padding: .5em;
-  margin: .5em;
-}
-
-label {
-  font-weight: bold;
-}
-
-button {
-  color:white;
-  background-color: black;
-  border: none;
-  padding: 1em;
-  margin:1em;
-  border-radius: .5em;
-  font-size: 1em;
-}
 
 /* Icons */
 .contact-icon {
