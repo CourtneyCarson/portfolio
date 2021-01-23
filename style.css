@@ -10,25 +10,19 @@ background: #f3e9ed;
   background: url(/images/dream-plan-do.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  /* min-height: 60em; */
-  /* margin-bottom: 5em; */
   min-height: 100vh;
 }
 
 .name {
-  font-size: 2em;
-  /* margin-top: .5em; */
-  /* margin-left:1em; */
+  font-size: 3em;
   font-family: 'Great Vibes';
   font-weight:bold;
-  font-size: 3em;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   padding: .5em;
-  /* background: white; */
 }
 
 nav a {
@@ -43,32 +37,15 @@ nav a:hover{
   background:black;
   color:white;
   border-radius: .5em;
-  box-shadow: violet;
 }
-
-/* Big Name */
-/* .name-or-slogan {
-  margin-top: 4em;
-  color:white;
-  font-size: 5em;
-  text-align:center;
-  font-family: 'Abril Fatface', cursive;
-} */
-/* Slogan */
-/* .slogan {
-  color:white;
-  text-align:center;
-  font-size: 2em;
-} */
 
 /* Arrows  */
 .down-button {
   text-align:center;
-  margin-top: 50em;
+  margin-top: 40em;
 }
 
 .down-btn-color {
-  /* color:white; */
   color: black;
   font-size: 3em;
 }
@@ -82,17 +59,12 @@ nav a:hover{
   min-height: 100vh;
 }
 
-/* Banner Image */
-.abt-banner{
-  width:100vw;
-  margin-bottom: 10em;
-}
-
 .about-name {
-  text-align:center;
   font-size:2em;
   font-family:  'Spartan', sans-serif;
+  padding: 2em;
 }
+
 
 /* Flex For <p> & <img> */
 .parent-to-blurbs {
@@ -129,6 +101,50 @@ nav a:hover{
   font-family:'Lato';
 }
 
+
+.arrow-to-skills{
+  text-align:center;
+}
+  
+.skills-arrow{
+  color:black;
+  font-size:3em;
+}
+
+/* ------------------------------------------------------------------ */
+              /* Skills */
+/* ------------------------------------------------------------------ */
+
+.skills-icons {
+  width: 25em;
+}
+
+/* Entire Page View */
+.skills {
+  min-height: 100vh;
+}
+
+.skills-banner{
+  width:100vw;
+}
+
+.skills-section{
+  display:flex;
+  justify-content: space-evenly;
+  margin-bottom: 8em;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.5em;
+  text-align: left;
+}
+
 /* arrow down to portfolio section */
 .arrow-to-portfolio{
   text-align:center;
@@ -140,12 +156,12 @@ nav a:hover{
   font-size:3em;
 }
 
+
 /* ------------------------------------------------------------------ */
               /* Portfolio */
 /* ------------------------------------------------------------------ */
 /* Entire Page View */
 .portfolio-section {
-  /* background:paleturquoise; */
   min-height:100vh;
 }
 
@@ -218,48 +234,7 @@ text-align:center;
   flex-direction: row;
 }
 
-.arrow-to-skills{
-  text-align:center;
-}
-  
-.skills-arrow{
-  color:black;
-  font-size:3em;
-}
 
-/* ------------------------------------------------------------------ */
-              /* Skills */
-/* ------------------------------------------------------------------ */
-
-.skills-icons {
-  width: 25em;
-}
-
-/* Entire Page View */
-.skills {
-  min-height: 100vh;
-}
-
-.skills-banner{
-  width:100vw;
-}
-
-.skills-section{
-  display:flex;
-  justify-content: space-evenly;
-  margin-bottom: 8em;
-}
-
-h3 {
-  font-size: 2em;
-  text-align: center;
-}
-
-ul {
-  list-style-type: none;
-  font-size: 1.5em;
-  text-align: left;
-}
 .arrow-to-contact{
   text-align:center;
 
@@ -268,7 +243,6 @@ ul {
 .contact-arrow{
   color:black;
   font-size:3em;
-
 }
 
 
@@ -279,21 +253,21 @@ ul {
 /* Entire Page View */
 .contact-section {
   /* background:palevioletred; */
-  min-height:100vh;
+  /* min-height:100vh; */
 }
 
 /* Header Img */
-.contact-banner {
+/* .contact-banner {
   margin-bottom: 5em;
   width: 100vw;
-}
+} */
 /* contact div container */
 .contact-div {
-  display: flex;
-  justify-content: space-evenly;
+  /* display: flex;
+  justify-content: space-evenly; */
 }
 /* Contact Form */
-.left-contact {
+/* .left-contact {
   padding: 4em;
   background: rgba(255,182,193, .15 );
   border-radius: .5em;
@@ -301,13 +275,13 @@ ul {
   flex-direction: column;
   justify-content: space-evenly;
   text-align:center;
-}
+} */
 /* Contact Icons */
 .right-contact{
   /* border: solid; */
   text-align:center;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   padding: 8em;
   background: rgba(255,182,193, .15 );
   border-radius: .5em;
@@ -354,7 +328,7 @@ button {
 /* Arrow Back To Top */
 .arrow-to-home{
   text-align:center;
-  margin-top: 5em;
+  margin-top: 10em;
 }
   
 .home-arrow{
