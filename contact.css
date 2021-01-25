@@ -1,14 +1,10 @@
 /* ------------------------------------------------------------------ */
-              /* Contact */
+              /* Mobile First */
 /* ------------------------------------------------------------------ */
-/* Entire Page View */
-.contact-section {
-  /* min-height:100vh; */
-}
+
 /* Contact Icons */
 .contact-div{
   text-align:center;
-  /* padding: 8em; */
   background: rgba(255,182,193, .15 );
   border-radius: .5em;
 }
@@ -33,7 +29,6 @@
 .arrow-to-home{
   text-align:center;
   margin-top: 7em;
-  /* font-family: 'Lato'; */
 }
   
 .home-arrow{
@@ -47,12 +42,11 @@
 
 
 
-
+/* ------------------------------------------------------------------ */
+              /* Full Page */
+/* ------------------------------------------------------------------ */
 @media screen and (min-width:600px){
-/* Entire Page View */
-.contact-section {
-  /* min-height:100vh; */
-}
+
 /* Contact Icons */
 .contact-div{
   text-align:center;
@@ -80,7 +74,6 @@
 .arrow-to-home{
   text-align:center;
   margin-top: 7em;
-  /* font-family: 'Lato'; */
 }
   
 .home-arrow{

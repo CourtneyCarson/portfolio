@@ -1,18 +1,12 @@
-
 /* ------------------------------------------------------------------ */
-              /* About Me */
+              /* Mobile First */
 /* ------------------------------------------------------------------ */
-
-/* Mobile First */
-
 /* Entire Page View */
-
 .about-name {
   font-size:1.2em;
   font-family:  'Spartan', sans-serif;
   padding: 1em 0em 1em .2em;
 }
-
 
 /* Flex For <p> & <img> */
 .parent-to-blurbs {
@@ -39,14 +33,10 @@
 visibility: hidden;
 }
 
-
-/* Full Screen */
-
+/* ------------------------------------------------------------------ */
+              /* Full Screen */
+/* ------------------------------------------------------------------ */
 @media screen and (min-width:600px){
-  .about-section {
-    /* margin-bottom: 10em; */
-  }
-
   .about-name {
     font-size:2em;
     font-family:  'Spartan', sans-serif;
@@ -54,42 +44,40 @@ visibility: hidden;
   }
 
   /* Flex For <p> & <img> */
-.parent-to-blurbs {
-  display: flex;
-  justify-content: center;
-}
+  .parent-to-blurbs {
+    display: flex;
+    justify-content: center;
+  }
 
 /* Left Paragraph */
-.left-blurb {
-  margin-left: 2em;
-  padding: 2em;
-  background: rgba(255,182,193, .15 );
-  border-radius: .5em;
-  font-family: 'Lato';
-  font-size: 1.1em;
-}
+  .left-blurb {
+    margin-left: 2em;
+    padding: 2em;
+    background: rgba(255,182,193, .15 );
+    border-radius: .5em;
+    font-family: 'Lato';
+    font-size: 1.1em;
+  }
 
-.profile-pic {
-  width: 20em;
-  height:20em;
-  border-radius: .65em;
-}
+  .profile-pic {
+    width: 20em;
+    height:20em;
+    border-radius: .65em;
+  }
 
-.arrow-to-skills{
-  visibility: visible;
-  text-align:center;
-  margin-top: 5em;
-}
+  .arrow-to-skills{
+    visibility: visible;
+    text-align:center;
+    margin-top: 5em;
+  }
   
-.skills-arrow{
-  color:black;
-  font-size:3em;
-}
+  .skills-arrow{
+    color:black;
+    font-size:3em;
+  }
 
-.skills-arrow:hover{
-  color:palevioletred;
-}
-
-
+  .skills-arrow:hover{
+    color:palevioletred;
+  }
 
 }

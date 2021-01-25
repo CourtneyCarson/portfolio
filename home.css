@@ -1,18 +1,15 @@
 /* ------------------------------------------------------------------
-              /* Home */
+              /* Mobile First */
 /* ------------------------------------------------------------------ */
-
-
-/* Mobile First */
 
 /* Header Background Image */
 .header-content {
   background: url(/images/straight-banner.png);
-  /* background-size:100%; */
   height: 30vh;
   background-size: cover;
 }
 
+/* Dream. plan. do.  */
 .dream-text {
   font-weight: bold;
   font-family: 'Spartan';
@@ -20,36 +17,38 @@
   margin: 3.5em 0em 0em .3em;
 }
 
+/* Name in nav */
 .name {
   font-size: 1.5em;
   font-family: 'Great Vibes';
   font-weight:bold;
-  /* padding-top: .5em; */
 }
 
+/* Link text */
 .nav-i-text {
   display: flex;
   margin-top: -1.2em;
 }
 
+/* Link icons */
 nav i {
-  /* color: black; */
   font-size: .8em;
   padding-left: .5em;
   padding-right: .5em;
 }
 
-
+/* Nav container */
 .nav {
-  /* padding: .4em; */
   display:flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* Nav container with icons + text */
 .nav-text {
   display: none;
 }
+
 
 nav a {
   color: black;
@@ -72,7 +71,9 @@ nav i:hover{
 }
 
 
-
+/* ------------------------------------------------------------------ */
+              /* Full Page */
+/* ------------------------------------------------------------------ */
 @media screen and (min-width:600px){
 
 /* Header Background Image */
@@ -83,12 +84,12 @@ nav i:hover{
   height: 90vh;
 }
 
+
 .name {
   font-size: 3em;
   font-family: 'Great Vibes';
   font-weight:bold;
 }
-
 
 .dream-text {
   display:none;
@@ -96,15 +97,10 @@ nav i:hover{
 .nav {
   flex-direction: row;
   justify-content: space-between;
-  /* padding: .5em; */
 }
 
 .nav-text {
   display: contents;
-}
-
-.nav-i-text {
-  /* display: flex; */
 }
 
 .nav-i-text p {
@@ -113,7 +109,6 @@ nav i:hover{
 
 nav a {
   color: black;
-  /* font-size: 1.2em; */
   text-decoration:none;
   font-family: 'Spartan';
 }

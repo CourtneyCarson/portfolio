@@ -1,7 +1,6 @@
 /* ------------------------------------------------------------------ */
-              /* Portfolio */
+              /* Mobile First */
 /* ------------------------------------------------------------------ */
-/* Mobile First */
 
 /* Individual projects */
 .project {
@@ -17,7 +16,7 @@
 .port-h2 {
 text-align:center;
  font-size: 1.2em;
- margin-bottom: 1.5em;
+ margin-bottom: 1.5
 }
 
 /* Images */
@@ -60,15 +59,13 @@ text-align:center;
   justify-content: space-evenly;
 }
 
+/* Skills Boxes */
 .port-skills p {
   background: rgba(255,182,193, .35 );
-  /* background: black; */
-  /* color:white; */
   padding: .5em;
   border-radius: .5em;
   margin-top: -.8em;
 }
-
 
 .arrow-to-contact{
   visibility: hidden;
@@ -76,92 +73,38 @@ text-align:center;
   
 
 
-/* FULL PAGE */
-@media screen and (min-width:600px){
-
-/* Entire Page View */
-.portfolio-section {
-  /* min-height:100vh; */
-}
-
-
-
-/* Projects Flex Container */
-.projects-div {
-  /* margin-bottom:5em;
-  width:100%; */
-}
+/* ------------------------------------------------------------------ */
+              /* Full Page */
+/* ------------------------------------------------------------------ */
+@media screen and (min-width:600px) {
 
 /* Individual projects */
-.project {
-  display:flex;
-  background:none;
-  justify-content: center;
-}
+  .project {
+    display:flex;
+    background:none;
+    justify-content: center;
+  }
 
 /* Project Title */ 
-.port-h2 {
-  font-size: 1.2em;
-  margin-bottom: 2em;
-}
-
+  .port-h2 {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+  }
 
 /* Images */
-.portfolio-img {
-  width: 25em;
-  height:18em;
-}
+  .portfolio-img {
+    width: 25em;
+    height:18em;
+  }
 
-/* Links GitHub + Demo */
-.demo-links {
-  /* color:white; */
-  /* padding:1em; */
-  /* background:black; */
-  /* border-radius: .5em; */
-  /* text-align:left; */
-  /* text-decoration:none; */
-  /* background: rgba(255,182,193, .4 ); */
-}
-
-.demo-links:hover {
-  color:black;
-  background:palevioletred;
-  /* padding:1em; */
-}
-
-.link-box {
-  /* text-align:center; */
-}
-
-
-
+  .demo-links:hover {
+    color:black;
+    background:palevioletred;
+  }
 
 /* Description Paragraph */
-.description {
-  /* padding:2em; */
-  margin-left: 2em;
-  /* text-align:left; */
-}
+  .description {
+    margin-left: 2em;
+  }
 
-/* Skills Used */
-/* .port-skills {
-display: flex;
-justify-content: space-evenly;
- align-items: center;
-} */
-
-
-/* .arrow-to-contact{
-  text-align:center;
-}
-  
-.contact-arrow{
-  visibility: visible;
-  color:black;
-  font-size:3em;
-}
-
-.contact-arrow:hover{
-  color:palevioletred;
-} */
 }
