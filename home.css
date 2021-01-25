@@ -1,0 +1,155 @@
+/* ------------------------------------------------------------------
+              /* Home */
+/* ------------------------------------------------------------------ */
+
+
+/* Mobile First */
+
+/* Header Background Image */
+.header-content {
+  background: url(/images/straight-banner.png);
+  /* background-size:100%; */
+  height: 30vh;
+  background-size: cover;
+}
+
+.dream-text {
+  font-weight: bold;
+  font-family: 'Spartan';
+  font-size: 1.1em;
+  margin: 3.5em 0em 0em .3em;
+}
+
+.name {
+  font-size: 1.5em;
+  font-family: 'Great Vibes';
+  font-weight:bold;
+  /* padding-top: .5em; */
+}
+
+.nav-i-text {
+  display: flex;
+  margin-top: -1.2em;
+}
+
+nav i {
+  /* color: black; */
+  font-size: .8em;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+
+.nav {
+  /* padding: .4em; */
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-text {
+  display: none;
+}
+
+nav a {
+  color: black;
+  font-family: 'Spartan';
+}
+
+nav a:hover{
+  background:black;
+  color:palevioletred;
+  border-radius: .25em;
+}
+
+nav i:hover{
+  color:pink;
+}
+
+/* Arrow  */
+.down-button {
+  visibility: hidden;
+}
+
+
+
+@media screen and (min-width:600px){
+
+/* Header Background Image */
+.header-content {
+  background: url(/images/home-banner.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.name {
+  font-size: 3em;
+  font-family: 'Great Vibes';
+  font-weight:bold;
+}
+
+
+.dream-text {
+  display:none;
+}
+.nav {
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: .5em; */
+}
+
+.nav-text {
+  display: contents;
+}
+
+.nav-i-text {
+  /* display: flex; */
+}
+
+.nav-i-text p {
+  margin: .3em;
+}
+
+nav a {
+  color: black;
+  /* font-size: 1.2em; */
+  text-decoration:none;
+  font-family: 'Spartan';
+}
+
+nav a:hover{
+  background:black;
+  color:palevioletred;
+  border-radius: .5em;
+}
+
+nav i {
+  color: black;
+  font-size: 1em;
+}
+
+nav i:hover{
+  color:pink;
+}
+
+/* Arrows  */
+.down-button {
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 90%;
+}
+
+.down-btn-color {
+  color: black;
+  font-size: 3em;
+}
+
+.down-btn-color:hover{
+  color: palevioletred;
+} 
+
+}

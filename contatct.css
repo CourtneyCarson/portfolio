@@ -1,0 +1,101 @@
+/* ------------------------------------------------------------------ */
+              /* Contact */
+/* ------------------------------------------------------------------ */
+/* Entire Page View */
+.contact-section {
+  /* min-height:100vh; */
+}
+/* Contact Icons */
+.contact-div{
+  text-align:center;
+  /* padding: 8em; */
+  background: rgba(255,182,193, .15 );
+  border-radius: .5em;
+}
+
+.connect-text {
+  font-family: 'Lato';
+  font-size: 1.2em;
+  padding: 1em;
+}
+
+/* Icons */
+.contact-icon {
+  font-size: 3em;
+  color: palevioletred;
+  padding: .5em;
+}
+
+.contact-icon:hover {
+  color:black;
+}
+/* Arrow Back To Top */
+.arrow-to-home{
+  text-align:center;
+  margin-top: 7em;
+  /* font-family: 'Lato'; */
+}
+  
+.home-arrow{
+  color:black;
+  font-size:3em;
+}
+
+.home-arrow:hover {
+  color: palevioletred;
+}
+
+
+
+
+@media screen and (min-width:600px){
+/* Entire Page View */
+.contact-section {
+  /* min-height:100vh; */
+}
+/* Contact Icons */
+.contact-div{
+  text-align:center;
+  background: rgba(255,182,193, .15 );
+  border-radius: .5em;
+}
+
+.connect-text {
+  font-family: 'Lato';
+  font-size: 1.2em;
+  padding: 1em;
+}
+
+/* Icons */
+.contact-icon {
+  font-size: 3em;
+  color: palevioletred;
+  padding: .5em;
+}
+
+.contact-icon:hover {
+  color:black;
+}
+/* Arrow Back To Top */
+.arrow-to-home{
+  text-align:center;
+  margin-top: 7em;
+  /* font-family: 'Lato'; */
+}
+  
+.home-arrow{
+  color:black;
+  font-size:3em;
+}
+
+.home-arrow:hover {
+  color: palevioletred;
+}
+
+.back-home {
+  font-family: 'Spartan';
+  font-size: 1em;
+  margin-top: -.1em;
+}
+
+}

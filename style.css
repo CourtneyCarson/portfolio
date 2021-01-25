@@ -1,19 +1,21 @@
-body{
-background: #f3e9ed;
-}
 
-/* ------------------------------------------------------------------ */
+
+ body{
+  background: #f3e9ed;
+  } 
+
+/* ------------------------------------------------------------------
               /* Home */
 /* ------------------------------------------------------------------ */
 /* Header Background Image */
-.header-content {
-  background: url(/images/dream-plan-do.png);
+/* .header-content {
+  background: url(/images/home-banner.png);
   background-size: 100%;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  background-repeat: no-repeat; */
+  /* min-height: 100vh; */
   /* min-width: 100vw; */
-  size: cover;
-}
+  /* background-size: cover; */
+/* }
 
 .name {
   font-size: 3em;
@@ -28,7 +30,7 @@ background: #f3e9ed;
 }
 
 nav a {
-  color:black;
+  color: black;
   font-size: 1.2em;
   padding: .5em ;
   text-decoration:none;
@@ -37,12 +39,20 @@ nav a {
 
 nav a:hover{
   background:black;
-  color:white;
+  color:palevioletred;
   border-radius: .5em;
 }
 
+nav i {
+  color: black;
+}
+
+nav i:hover{
+  color:pink;
+} */
+
 /* Arrows  */
-.down-button {
+/* .down-button {
   text-align:center;
   margin-top: 40em;
 }
@@ -52,35 +62,39 @@ nav a:hover{
   font-size: 3em;
 }
 
+.down-btn-color:hover{
+  color: palevioletred;
+}  */
 
 /* ------------------------------------------------------------------ */
               /* About Me */
 /* ------------------------------------------------------------------ */
 /* Entire Page View */
-.about-section {
-  min-height: 100vh;
+/* .about-section { */
+  /* min-height: 100vh; */
+  /* margin-bottom: 10em;
 }
 
 .about-name {
   font-size:2em;
   font-family:  'Spartan', sans-serif;
   padding: 2em;
-}
+} */
 
 
 /* Flex For <p> & <img> */
-.parent-to-blurbs {
+/* .parent-to-blurbs {
   margin: 0em 5em 1em 5em;
   display: flex;
   justify-content: center;
-}
+} */
 
 /* Left Paragraph */
-.left-blurb {
-  text-align: left;
+/* .left-blurb {
+  text-align: left; */
   /* margin-right: 2em; */
   /* flex: 1; */
-  margin-left: 2em;
+  /* margin-left: 2em;
   background: rgba(255,182,193, .15 );
   border-radius: .5em;
   padding: 0em 1em 0em 1em;
@@ -93,7 +107,7 @@ nav a:hover{
   width: 20em;
   height:20em;
   border-radius: .65em;
-}
+} */
 
 /* Right Paragraph */
 /* .right-blurb {
@@ -108,7 +122,7 @@ nav a:hover{
 } */
 
 
-.arrow-to-skills{
+/* .arrow-to-skills{
   text-align:center;
 }
   
@@ -117,18 +131,22 @@ nav a:hover{
   font-size:3em;
 }
 
+.skills-arrow:hover{
+  color:palevioletred;
+} */
+
 /* ------------------------------------------------------------------ */
               /* Skills */
 /* ------------------------------------------------------------------ */
 
-.skills-icons {
+/* .skills-icons {
   width: 25em;
-}
+} */
 
 /* Entire Page View */
-.skills {
-  min-height: 100vh;
-}
+/* .skills { */
+  /* min-height: 100vh; */
+/* }
 
 .skills-banner{
   width:100vw;
@@ -149,10 +167,10 @@ ul {
   list-style-type: none;
   font-size: 1.5em;
   text-align: left;
-}
+} */
 
 /* arrow down to portfolio section */
-.arrow-to-portfolio{
+/* .arrow-to-portfolio{
   text-align:center;
   margin-top: 8em;
 }
@@ -162,60 +180,64 @@ ul {
   font-size:3em;
 }
 
+.port-arrow:hover{
+  color:palevioletred;
+} */
+
 
 /* ------------------------------------------------------------------ */
               /* Portfolio */
 /* ------------------------------------------------------------------ */
 /* Entire Page View */
-.portfolio-section {
+/* .portfolio-section {
   min-height:100vh;
-}
+} */
 
 /* Portfolio Header <img> */
-.port-banner {
+/* .port-banner {
   margin-bottom: 10em;
   width:100vw;
-}
+} */
 
 /* Projects Flex Container */
-.projects-div {
+/* .projects-div {
   display:flex;
   margin-bottom:5em;
   margin-left:5em;
   justify-content: space-around;
-}
+} */
 
 /* Individual projects */
-.project {
+/* .project {
 flex: 1;
 background: #f3e9ed;
 padding: 1em;
 margin:1em;
 font-family: 'Lato'
-}
+} */
 
 /* Project Title */ 
-.port-h2 {
+/* .port-h2 {
 text-align:center;
-}
+} */
 
 /* Images */
-.portfolio-img {
+/* .portfolio-img {
   width: 25em;
   height:18em;
   border-radius: .65em;
-}
+} */
 
 /* Links GitHub + Demo */
-.demo-links {
+/* .demo-links {
   color:white;
   padding:1em;
   background:black;
-  border-radius: .5em;
+  border-radius: .5em; */
   /* text-align:left; */
-  text-decoration:none;
+  /* text-decoration:none; */
   /* background: rgba(255,182,193, .4 ); */
-}
+/* }
 
 .demo-links:hover {
   color:black;
@@ -225,16 +247,16 @@ text-align:center;
 
 .link-box {
   text-align:center;
-}
+} */
 
 /* Description Paragraph */
-.description {
+/* .description {
   padding-top:1em;
   text-align:center;
-}
+} */
 
 /* Skills Used */
-.port-skills {
+/* .port-skills {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -251,55 +273,100 @@ text-align:center;
   font-size:3em;
 }
 
+.contact-arrow:hover{
+  color:palevioletred;
+} */
 
 
 /* ------------------------------------------------------------------ */
               /* Contact */
 /* ------------------------------------------------------------------ */
 /* Entire Page View */
-.contact-section {
+/* .contact-section { */
   /* min-height:100vh; */
-}
+/* } */
 /* Contact Icons */
-.contact-div{
-  text-align:center;
-  /* display: flex;
-  flex-direction: column; */
-  padding: 8em;
-  background: rgba(255,182,193, .15 );
+/* .contact-div{
+  text-align:center; */
+  /* padding: 8em; */
+  /* background: rgba(255,182,193, .15 );
   border-radius: .5em;
-}
+  width: 90%; */
+/* } */
 
-/* Form */
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/* .connect-text {
+  font-family: 'Lato';
+  font-size: 1.2em;
+  padding: 1em;
+} */
 
 /* Icons */
-.contact-icon {
+/* .contact-icon {
   font-size: 3em;
-  color:black;
+  color: palevioletred;
   padding: .5em;
 }
 
+.contact-icon:hover {
+  color:black;
+} */
 /* Arrow Back To Top */
-.arrow-to-home{
+/* .arrow-to-home{
   text-align:center;
-  margin-top: 10em;
-}
+  margin-top: 7em; */
+  /* font-family: 'Lato'; */
+/* }
   
 .home-arrow{
   color:black;
   font-size:3em;
 }
 
-
+.home-arrow:hover {
+  color: palevioletred;
+}
+*/
 
 
 footer {
   text-align: center;
+  font-family: 'Lato';
 }
 
+ 
+
+
+
+/* ------------------------------------------------------------------ */
+              /* Mobile */
+/* ------------------------------------------------------------------ */
+/* @media screen and (max-width:600px){ */
+  /* Home */
+/* .nav{
+flex-direction: column;
+ min-width: 100vw; */
+ /* background:white; */
+
+/* } */
+
+  /* About */
+  /* .parent-to-blurbs{
+    flex-direction:column;
+    justify-content: center;
+    min-width: 30em;
+  }
+.profile-pic{
+  justify-content: center;
+} */
+
+  /* Skills */
+  /* .skills-section{
+    flex-direction: column;
+  } */
+  /* Portfolio */
+/* .projects-div {
+  flex-direction:column;
+} */
+
+  /* Contact */
+/* } */
