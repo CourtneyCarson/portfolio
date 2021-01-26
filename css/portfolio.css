@@ -49,8 +49,9 @@ text-align:center;
 /* Description Paragraph */
 .description {
   padding-top:1em;
-  text-align:center;
+  text-align:left;
   margin-bottom: 2.5em;
+  max-width: 40em;
 }
 
 /* Skills Used */

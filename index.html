@@ -12,12 +12,8 @@
   <link href="/css/portfolio.css" rel="stylesheet" type="text/css" />
   <link href="/css/contact.css" rel="stylesheet" type="text/css" />
 
-
+  <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/53efbbe0a9.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <script src="script.js"></script>
 
   <!-- google fonts -->
   <style>
@@ -25,7 +21,11 @@
     @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
   </style>
+</head>
 
+
+<body>
+  <script src="script.js"></script>
 
 
   <!-- START HERE :D -->
@@ -41,29 +41,33 @@
           <div class='nav-i-text'>
 
             <!-- Icons Only On Mobile  -->
-            <p> <a href="#home" class='mobile-icon'> <i class="fas fa-home"></i> </a> </p>
-            <p> <a href="#about" class='mobile-icon'> <i class="fas fa-user-circle"></i> </a> </p>
-            <p> <a href="#skills" class='mobile-icon'> <i class="fas fa-wrench"></i> </a> </p>
-            <p> <a href="#portfolio" class='mobile-icon'> <i class="fas fa-briefcase"></i> </a> </p>
-            <p> <a href="#contact" class='mobile-icon'> <i class="fas fa-paper-plane"></i> </a> </p>
+            <p> <a href="#home" class='mobile-icon' aria-label='home-icon'> <i class="fas fa-home"></i> </a> </p>
+            <p> <a href="#about" class='mobile-icon' aria-label='about-icon'> <i class="fas fa-user-circle"></i> </a>
+            </p>
+            <p> <a href="#skills" class='mobile-icon' aria-label='skills-icon'> <i class="fas fa-wrench"></i> </a> </p>
+            <p> <a href="#portfolio" class='mobile-icon' aria-label='projects-icon'> <i class="fas fa-briefcase"></i>
+              </a> </p>
+            <p> <a href="#contact" class='mobile-icon' aria-label='contact-icon'> <i class="fas fa-paper-plane"></i>
+              </a> </p>
 
 
             <!-- Text and Icons Full Screen -->
             <p class='nav-text'> <i class="fas fa-home"></i><a href="#home"> Home</a></p>
-            <p class='nav-text'> <i class="fas fa-user-circle"> <a href="#about"></i> About</a></p>
-            <p class='nav-text'><i class="fas fa-wrench"> <a href="#skills"></i>Skills</a></p>
-            <p class='nav-text'><i class="fas fa-briefcase"></i><a href="#portfolio"></i>Portfolio</a></p>
-            <p class='nav-text'> <i class="fas fa-paper-plane"> <a href="#contact"></i>Contact</a></p>
+            <p class='nav-text'> <i class="fas fa-user-circle"></i> <a href="#about"> About</a></p>
+            <p class='nav-text'><i class="fas fa-wrench"> </i><a href="#skills">Skills</a></p>
+            <p class='nav-text'><i class="fas fa-briefcase"></i><a href="#portfolio">Portfolio</a></p>
+            <p class='nav-text'> <i class="fas fa-paper-plane"></i> <a href="#contact">Contact</a></p>
           </div>
         </nav>
 
 
 
-        <p class='dream-text'>Dream <br> Plan<br> Do </p>
+        <h1 class='dream-text'>Dream <br> Plan<br> Do </h1>
       </section>
 
       <div class='down-button'>
-        <a href='#about' class='down-btn-color'><i class="fas fa-angle-double-down"></i></a>
+        <a href='#about' class='down-btn-color' aria-label='arrow-down'><i class="fas fa-angle-double-down"></i>
+        </a>
       </div>
 
     </section>
@@ -90,12 +94,15 @@
             <p>With a background in management, I'm well versed in adaptability,
               attention to detail, and finding solutions. </p>
 
+            <p> I'm excited to continue my growth, and work with a team of Developers! </p>
+
             <p> Let's create! </p>
           </div>
         </section>
 
         <div class='arrow-to-skills'>
-          <a href='#skills' class='skills-arrow'><i class="fas fa-angle-double-down"></i></a>
+          <a href='#skills' class='skills-arrow' aria-label='arrow-down'><i class="fas fa-angle-double-down"></i>
+          </a>
         </div>
 
       </div>
@@ -124,7 +131,8 @@
       </div>
 
       <div class='arrow-to-portfolio'>
-        <a href='#portfolio' class='port-arrow'><i class="fas fa-angle-double-down"></i></a>
+        <a href='#portfolio' class='port-arrow' aria-label='arrow-down'><i class="fas fa-angle-double-down"></i>
+        </a>
       </div>
 
     </section>
@@ -151,8 +159,13 @@
                     class="fab fa-github"></i> Code</a>
                 <a href='https://secret-camping.vercel.app' class='demo-links'> <i class="fas fa-desktop"></i> Demo</a>
               </p>
+
+              <p class='description'>
+                Word of mouth is the best way to find the perfect camping place, but it requires knowing people
+                from the area. Users now have the word of mouth experience, online. Users can share and save
+                their favorite places. Membership is required, so these secret places are safeguarded from the masses.
               </p>
-              <p class='description'> A members only site to share your favorite secluded camping places.</p>
+
               <div class='port-skills'>
                 <p>Node</p>
                 <p>React</p>
@@ -182,7 +195,12 @@
                 <a href='https://pain-management-capstone-client-m2qof8xrr.vercel.app/' class='demo-links'><i
                     class="fas fa-desktop"></i> Demo</a>
               </p>
-              <p class='description'> A site to learn about and treat pain caused by trigger points.</p>
+              <p class='description'>
+                With a background in Kinesiology, I'm often asked how to treat pain. I always advise
+                to start with trigger point therapy. This app is for a user looking to alleviate their pain,
+                They will be show potential trigger points that could be the cause of their pain.
+              </p>
+
               <div class='port-skills'>
                 <p>Node</p>
                 <p>React</p>
@@ -207,12 +225,18 @@
             <div>
               <h2 class='port-h2'>Spaced Repetition</h2>
               <p class='link-box'>
-                <a href='https://github.com/CourtneyCarson/spaced-repetition' class='demo-links'><i
-                    class="fab fa-github"></i> Code</a>
+                <a href='https://github.com/CourtneyCarson/spaced-repetition' class='demo-links'>
+                  <i class="fab fa-github"></i> Code</a>
                 <a href='spaced-repetition.courtneycarson.vercel.app' class='demo-links'> <i class="fas fa-desktop"></i>
                   Demo</a>
               </p>
-              <p class='description'> A language learning application utilizing a spaced repetition algorithm. </p>
+              <p class='description'>
+                There isn't much sense in practicing the things that you already have memorized!
+                This app uses a spaced repetition algorithm to present incorrect guesses more often. When words are
+                guessed correctly. they are presented less and less often, until the user guesses correctly 100% of
+                the time.
+              </p>
+
               <div class='port-skills'>
                 <p>Node</p>
                 <p>React</p>
@@ -228,10 +252,11 @@
                 <p>Vercel</p>
               </div>
             </div>
+          </div>
         </section>
 
         <div class='arrow-to-contact'>
-          <a href='#contact' class='contact-arrow'><i class="fas fa-angle-double-down"></i></a>
+          <a href='#contact' class='contact-arrow' aria-label='arrow-down'><i class="fas fa-angle-double-down"></i></a>
         </div>
 
       </div>
@@ -243,13 +268,18 @@
 
         <section class='contact-div'>
           <p class='connect-text'>Let's Connect <i class="fas fa-paper-plane"></i></p>
-          <a href="https://github.com/CourtneyCarson" class='contact-icon'><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/courtney-carson-134327a3/" class='contact-icon'> <i
-              class="fab fa-linkedin-in"></i></a>
-          <a href="mailto:cmacarson@gmail.com" class='contact-icon'> <i class="far fa-envelope"></i> </a>
+          <a href="https://github.com/CourtneyCarson" class='contact-icon' aria-label='github-link' target="_blank"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/courtney-carson-134327a3/" class='contact-icon'
+            aria-label='linkedin-link' target="_blank"> <i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:cmacarson@gmail.com" class='contact-icon' aria-label='email-link' target="_blank"> <i
+              class="far fa-envelope"></i> </a>
+
           <div class='arrow-to-home'>
-            <a href='#home' class='home-arrow'><i class="fas fa-angle-double-up"></i></a>
+            <a href='#home' class='home-arrow' aria-label='arrow-home'><i class="fas fa-angle-double-up"></i></a>
             <p class='back-home'>Home </p>
+          </div>
+
         </section>
 
 
